@@ -11,6 +11,10 @@ const start = async () => {
           value: "cadastar"
         },
         {
+          name: "Listar metas",
+          value: "Listar "
+        },
+        {
           name:"Sair",
           value: "sair"
         }
@@ -26,6 +30,7 @@ const start = async () => {
         console.log("Vamos listar")
         break
         case "sair":
+          console.log("Até a próxima!")
           return
     }
   }
